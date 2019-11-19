@@ -8,6 +8,7 @@ html{
     background-image: url("paper.jpg");
 }
 body{
+ 
   box-shadow: rgb(51, 51, 51) 5px 0px 15px,
                rgb(51, 51, 51) -5px 0px 15px;
    margin: 50px auto;
@@ -21,6 +22,15 @@ body{
    border-top-right-radius: 10px;
    
 }
+body {
+  opacity: 1;
+  transition: 5s opacity;
+}
+
+body.fade {
+    opacity: 0;
+    transition: none;
+}
 nav a{
   float: left;
   background-color: rgb(206, 170, 123);
@@ -33,13 +43,18 @@ nav a{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   width: 10% ;
-  color: black;
+  color: black;       
+  /* 
+  box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+  rgb(51, 51, 51) -5px 0px 15px;
+  */
 }
+
 nav li.home a {
   top: -9px;
   left: 226px;
 }
-nav li.projects a{
+nav li.me a{
   top: -10px;
   left: 400px;
 }
@@ -47,18 +62,40 @@ nav li.Skills a{
   top: -10px;
   left: 574px;
 }
-nav li.contact a{
+nav li.projects a{
   top: -10px;
   left: 750px;
 }
-nav li.me a{
+nav li.contact a{
   top: -10px;
   left: 930px;
 }
 h1{
   display: block;
-  font-size: 150px;
+  font-size: 120px;
   position: absolute;
-  top: 180px;
-  left: 350px;
+  top: 130px;
+  left: 320px;
+  border: firebrick ;
+  color: rgb(131, 4, 4);
+  border: 25px double black;
+  line-height: 1;
+  
+}
+h2{
+  display: block;
+  font-size: 120px;
+  position: absolute;
+  top: 600px;
+  left: 290px;
+  text-shadow: black 15px 0px 15px;
+}
+img{
+  max-width: 90%;
+  top: 160px;
+  left: px;
+}
+aside{
+  display: flex;
+  justify-content: flex-end;
 }

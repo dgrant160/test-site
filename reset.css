@@ -4,7 +4,16 @@ article, aside, figcaption, figure,
 footer, header, main, nav, section { 
    display: block;
 }
-
+@font-face {
+   font-family: "Castle";
+   src: url("Castle.ttf");
+   src:
+   url("Castle.ttf") format("ttf"),
+   url("Castle.woff") format("woff"),
+   url("Castle.woff2") format("woff2");
+   }
+   
+   
 address, article, aside, blockquote, body, cite, 
 div, dl, dt, dd, em, figcaption, figure, footer, 
 h1, h2, h3, h4, h5, h6, header, html, img, 
@@ -38,4 +47,7 @@ nav ul {
 
 nav a {
    text-decoration: none;
+}
+h1{
+ font-family: Castle;
 }

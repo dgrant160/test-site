@@ -40,7 +40,7 @@ nav li.home a {
   top: -10px;
   left: 226px;
 }
-nav li.projects a{
+nav li.me a{
   top: -10px;
   left: 400px;
 }
@@ -48,11 +48,11 @@ nav li.Skills a{
   top: -9px;
   left: 574px;
 }
-nav li.contact a{
+nav li.projects a{
   top: -10px;
   left: 750px;
 }
-nav li.me a{
+nav li.contact a{
   top: -10px;
   left: 930px;
 }
